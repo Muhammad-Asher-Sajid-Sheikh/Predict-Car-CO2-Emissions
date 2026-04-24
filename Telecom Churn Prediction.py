@@ -6,7 +6,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix
 
-# 1. Setup Data
+# 1. Data
 X = np.array([[0, 25], [1, 50], [0, 100], [2, 40], [0, 110], [1, 20], [2, 105], [0, 95]])
 y = np.array([0, 0, 1, 0, 1, 0, 0, 1]) # 0=Stay, 1=Leave
 
